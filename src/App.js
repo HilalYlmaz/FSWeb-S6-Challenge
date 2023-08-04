@@ -1,4 +1,6 @@
 import React from 'react';
+import Karakter from "./components/Karakter"
+import "./App.css";
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
@@ -10,7 +12,8 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1 className="Header">Karakterler</h1>
+      <h1 className='Header'>Star Wars Characters</h1>
+      <Karakter/>
     </div>
   );
 }
